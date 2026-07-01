@@ -1,0 +1,68 @@
+canonical_identifier: bkk:krp/KR6a0162/v1
+canonical_location: https://kanripo.org/bkk/KR6a0162/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 陰持入經註
+  identifiers:
+    alt_id:
+    - T33n1694
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T33/T33n1694.xml
+    old_id: T33n1694
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0162_000.yaml, hash: 'sha256:230902a9677745597737773bc7595f974a5b0b3bcf176d8477d65c67f5746f1f'}
+  - {seq: 1, filename: KR6a0162_001.yaml, hash: 'sha256:fcc00c22dd974bf1e152328211af55dcdc3ccf8628c24762da221f582631b4b9'}
+  - {seq: 2, filename: KR6a0162_002.yaml, hash: 'sha256:ba2789ec3abf3e5aa58757556ed42413a30bce6da94a5630a34ccd291d74006e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6a0162_000.markers.yaml, hash: 'sha256:909f34390796b9fb5093e4261c99eba50ff8d21b8472c6b3b7a2bf9c600ac7c6'}
+  - {seq: 1, role: markers, filename: assets/KR6a0162_001.markers.yaml, hash: 'sha256:5cb9fe33b3691412ca7133da512c3d4a8462c8fa2c74645386a9caf226e5e0db'}
+  - {seq: 2, role: markers, filename: assets/KR6a0162_002.markers.yaml, hash: 'sha256:484b5da8ce300ddc6b23313a8d96343191b88d59e866ee993e3dcddf142f053e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6a0162_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 陰持入經序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6a0162_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 10463
+  label: 陰持入經卷上此經多𧗪字，他本皆作行
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6a0162_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 8236
+  label: 陰持入經卷下此經多𧗪字，他本皆作行
+  type: juan
+  level: 1
+hash: sha256:0b8eeb28a67b079bfd7fff5a657d13d0126b4549ab4fe6fcd6cba15c64b7ace8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

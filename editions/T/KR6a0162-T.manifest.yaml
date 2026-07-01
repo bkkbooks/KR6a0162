@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR6a0162/T/v1
+canonical_location: https://kanripo.org/bkk/KR6a0162/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 陰持入經註
+  identifiers:
+    krp: KR6a0162
+    cbeta: T33n1694
+    cbeta_old_id: T33n1694
+    authorityid: CA0003784
+    json_key: T1694
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T33/T33n1694.xml
+    old_id: T33n1694
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0162_000-T.yaml, hash: 'sha256:93bccb4ec25088e94dcc392aa2db0d31ec299a318d4ec1114dcbdfd10cec6ea7'}
+  - {seq: 1, filename: KR6a0162_001-T.yaml, hash: 'sha256:fc9227216735f9ef4e1014a4f86862f6e30829fab2698dc3d58ef10445262da0'}
+  - {seq: 2, filename: KR6a0162_002-T.yaml, hash: 'sha256:a1333cef802b8da53755b05d4b0c85d736bf6fbfbbdd7e11444aea0ecc7d9df4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6a0162_000-T.markers.yaml, hash: 'sha256:afafbfd4e8e75b366252377c971ce0910af74a581cd942a12ec650a18614137a'}
+  - {seq: 1, role: markers, filename: assets/KR6a0162_001-T.markers.yaml, hash: 'sha256:21da6c611d7d238be126dc7d7411ae9f89f3c277e5a4c593ea911fd05435f174'}
+  - {seq: 2, role: markers, filename: assets/KR6a0162_002-T.markers.yaml, hash: 'sha256:7e800db22b537e1c1b6a38ff16308ac99ebaa8827662945ab57cd7e8cd2e5c14'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6a0162_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 陰持入經序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6a0162_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 10463
+  label: 陰持入經卷上此經多𧗪字，他本皆作行
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6a0162_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 8236
+  label: 陰持入經卷下此經多𧗪字，他本皆作行
+  type: juan
+  level: 1
+hash: sha256:c59c6cfe656bd4a731c9612605f09ae3f1983c1bcf2326543b1b0ef3ba6db6fc
