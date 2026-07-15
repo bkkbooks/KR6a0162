@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6a0162/v1
 canonical_location: https://kanripo.org/bkk/KR6a0162/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 陰持入經註
   identifiers:
@@ -24,13 +24,13 @@ editions:
 - short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6a0162_000.yaml, hash: 'sha256:93bccb4ec25088e94dcc392aa2db0d31ec299a318d4ec1114dcbdfd10cec6ea7'}
-  - {seq: 1, filename: KR6a0162_001.yaml, hash: 'sha256:fc9227216735f9ef4e1014a4f86862f6e30829fab2698dc3d58ef10445262da0'}
-  - {seq: 2, filename: KR6a0162_002.yaml, hash: 'sha256:a1333cef802b8da53755b05d4b0c85d736bf6fbfbbdd7e11444aea0ecc7d9df4'}
+  - {seq: 0, filename: KR6a0162_000.yaml, hash: 'sha256:230902a9677745597737773bc7595f974a5b0b3bcf176d8477d65c67f5746f1f'}
+  - {seq: 1, filename: KR6a0162_001.yaml, hash: 'sha256:1158c77fdce8ec857dbfa70e06137296277a87108e12845c00eed159b1d6d2a6'}
+  - {seq: 2, filename: KR6a0162_002.yaml, hash: 'sha256:4b87d6e40842f10f08910ee648eac15be4f415f3ebda2961d8a796d3b2cfc98e'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6a0162_000.markers.yaml, hash: 'sha256:49eb56fe215e53359613cbe3ba67e6eb56cd8135701d96868b4ee4b591d6f154'}
-  - {seq: 1, role: markers, filename: assets/KR6a0162_001.markers.yaml, hash: 'sha256:1d4a6992f9ce8f3ffef477f03642ca89fec7673f665cb3af838ee2054c0b411e'}
-  - {seq: 2, role: markers, filename: assets/KR6a0162_002.markers.yaml, hash: 'sha256:84b79b79f3fb9f685944c2c59a5bb95cad83be397316ce47facc62bff2adb287'}
+  - {seq: 0, role: markers, filename: assets/KR6a0162_000.markers.yaml, hash: 'sha256:637fbb06d844f311b2c20735870809899fc90422dc6235d0e03478e67831dcbb'}
+  - {seq: 1, role: markers, filename: assets/KR6a0162_001.markers.yaml, hash: 'sha256:59a77418d52f524f862b6f5cd7793b82ee275804243bfb116d9e9b3d5c488bd1'}
+  - {seq: 2, role: markers, filename: assets/KR6a0162_002.markers.yaml, hash: 'sha256:df2d32b7179d9a710b7d58279a6da61097a543acbf29930a729c2aad27d545c6'}
 table_of_contents:
 - ref:
     seq: 0
@@ -62,4 +62,7 @@ table_of_contents:
   label: 陰持入經卷下此經多𧗪字，他本皆作行
   type: juan
   level: 1
-hash: sha256:dedbd2e173ea384028125cc60246e3be9600fcbe730938744a61657f66bf4eec
+hash: sha256:6a4af5dbc0b8a6ab1f3d1713cebaf4ef8dac98671b529f799af7d1dac3239c61
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
