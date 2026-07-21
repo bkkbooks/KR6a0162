@@ -24,11 +24,11 @@ editions:
 - short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6a0162_000.yaml, hash: 'sha256:230902a9677745597737773bc7595f974a5b0b3bcf176d8477d65c67f5746f1f'}
+  - {seq: 0, filename: KR6a0162_000.yaml, hash: 'sha256:15eb76abc6a8f2b5dfde037e88028e3e748f9658eadd4477ad9848e32950f379'}
   - {seq: 1, filename: KR6a0162_001.yaml, hash: 'sha256:1158c77fdce8ec857dbfa70e06137296277a87108e12845c00eed159b1d6d2a6'}
   - {seq: 2, filename: KR6a0162_002.yaml, hash: 'sha256:4b87d6e40842f10f08910ee648eac15be4f415f3ebda2961d8a796d3b2cfc98e'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6a0162_000.markers.yaml, hash: 'sha256:637fbb06d844f311b2c20735870809899fc90422dc6235d0e03478e67831dcbb'}
+  - {seq: 0, role: markers, filename: assets/KR6a0162_000.markers.yaml, hash: 'sha256:a6c32f3b028024b1e8d155552bb2e03834505b494849c437330082b5530ad007'}
   - {seq: 1, role: markers, filename: assets/KR6a0162_001.markers.yaml, hash: 'sha256:59a77418d52f524f862b6f5cd7793b82ee275804243bfb116d9e9b3d5c488bd1'}
   - {seq: 2, role: markers, filename: assets/KR6a0162_002.markers.yaml, hash: 'sha256:df2d32b7179d9a710b7d58279a6da61097a543acbf29930a729c2aad27d545c6'}
 table_of_contents:
@@ -36,7 +36,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6a0162_T_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 陰持入經序
@@ -62,7 +62,7 @@ table_of_contents:
   label: 陰持入經卷下此經多𧗪字，他本皆作行
   type: juan
   level: 1
-hash: sha256:6a4af5dbc0b8a6ab1f3d1713cebaf4ef8dac98671b529f799af7d1dac3239c61
+hash: sha256:4524529891fbb52fd66f77277d017f3033ca392dc73b1483df230dd64f94de0f
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
